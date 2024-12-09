@@ -9,7 +9,7 @@
 
 - Run the built image:
 
-        docker run calc
+       docker run -p 8080:8080 calc
 
 ## You can test the calculator with curl requests or use the predefined requests with 'make'
 - Add
